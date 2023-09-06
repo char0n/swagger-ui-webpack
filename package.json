@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "build:swagger-ui": "webpack --color --progress --mode development --entry ./src/swagger-ui.js --output-filename swagger-ui.js",
-    "build:swagger-ui-react": "webpack --color --progress --mode development --entry ./src/swagger-ui-react.js --output-filename swagger-ui-react.js"
+    "build:swagger-ui": "webpack --color --progress --mode production --entry ./src/swagger-ui.js --output-filename swagger-ui.js",
+    "build:swagger-ui-react": "webpack --color --progress --mode production --entry ./src/swagger-ui-react.js --output-filename swagger-ui-react.js"
   },
   "devDependencies": {
     "swagger-ui": "5.6.2",
