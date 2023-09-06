@@ -1,15 +1,12 @@
 {
   "scripts": {
-    "test": "jest --config jest.config.js"
+    "build:swagger-ui": "webpack --color --progress --mode development --entry ./src/swagger-ui.js --output-filename swagger-ui.js",
+    "build:swagger-ui-react": "webpack --color --progress --mode development --entry ./src/swagger-ui-react.js --output-filename swagger-ui-react.js"
   },
   "devDependencies": {
-    "@types/jest": "27.4.1",
-    "@types/swagger-ui": "3.52.0",
-    "jest": "27.5.1",
-    "swagger-ui": "4.10.0",
-    "ts-jest": "27.1.4",
-    "typescript": "4.6.3",
-    "webpack": "5.70.0",
-    "webpack-cli": "4.9.2"
+    "swagger-ui": "5.6.2",
+    "swagger-ui-react": "5.6.2",
+    "webpack": "5.88.2",
+    "webpack-cli": "5.1.4"
   }
 }
